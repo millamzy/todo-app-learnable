@@ -6,8 +6,39 @@
 
 body{
     height: 100%;
-    background-color: #0c346b;
+    background-color: #1f2605;
     box-sizing: border-box;
+	display: flex;
+	flex-direction: column ;
+	justify-content: center;
+	align-items: center;
+}
+
+img{
+	height: 70px;
+	width: 70px;
+	border-radius: 50%;
+}
+
+
+
+header{
+	display: flex;
+	justify-content: space-between;
+	padding: 30px;
+}
+
+h2{
+	color: #e8e8e8	;
+	
+}
+
+main{
+	background-image: linear-gradient( #D6CE15, #53900f);
+	/* background-color:#61892f; */
+	height: 400px;
+	width:500px;
+	border-radius: 20px;
 }
 
 h1 {
@@ -20,7 +51,7 @@ h1 {
 }
 
 .title{
-	color: rgb(5, 184, 255);
+	color: rgb(255, 255, 255);
 	text-transform: uppercase;
 	font-weight: 800;
 }
@@ -49,7 +80,7 @@ h1 {
     height: 50px;
     border-radius: 25px;
     width: 50px;
-    background-color: rgb(5, 184, 255);
+    background-color: #1F6521;
     color: white;
     cursor: pointer;
     transition: .5s;
@@ -76,15 +107,18 @@ h1 {
 	background-color: #fff;
 	border-radius: 1rem;
 	
+	
+	
 
 
 }
 
+
 .item_input{
-	background: rgb(18, 18, 18);
+	background: rgb(206, 206, 206);
 	outline: none;
 	border-radius: 10px;
-	color: #e8e8e8;
+	color: #1f2605;
 	font-size: 1.4rem;
 	width: 245px;
 	padding-left:8px;
@@ -96,7 +130,7 @@ h1 {
 	background: none;
 	outline: none;
 	border: none;
-	color:  rgb(5, 184, 255);
+	color:  #A4A71E;
 	font-size: 1.4rem;
 	font-family: 'Hind', sans-serif;
 	margin: 0 0.5rem;
@@ -114,7 +148,7 @@ h1 {
    
    .edit:hover {
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg, #1F6521 0%, #53900f 100%);
    }
    
    .edit:active {
@@ -141,7 +175,7 @@ h1 {
 
 .remove:hover {
 	background: rgb(2,0,36);
-	background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+	background: linear-gradient(90deg,  #53900f 0%, #1F6521 100%);
    }
    
    .remove:active {
@@ -149,3 +183,12 @@ h1 {
 	color: black;
    }
 
+   footer{
+	margin-top: 20px;
+	background-color: #A4A71E;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+	color: #fff;
+	font-size: 20px;
+   }
